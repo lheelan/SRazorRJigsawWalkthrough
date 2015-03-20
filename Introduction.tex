@@ -2,11 +2,37 @@
 \section{Introduction}\label{sec:intro}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-General analysis overview, strategy, signals of interest, timeline.
+This note describes the expected analysis path and sensitivities of using the Recursive Jigsaw variables to search for SUSY on ATLAS using $\sqrt{s} = 13$~TeV $pp$ collision data from data taken in 2015.
+
+
+%General analysis overview, strategy, signals of interest, timeline.
 
 
 %---------------------------------------
-\subsection{Recursive Jigsaw variables}
+\subsection{Recursive Jigsaw variables}\label{subsec:RJ}
 %---------------------------------------
 Development of Razor variables~\cite{bib:Crogan}.
 Briefly: idea, variables (being used), etc. References. 
+
+
+%---------------------------------------
+\subsection{Analysis overview}
+%---------------------------------------
+The variables just presented are well suited to the search for inclusive strong squark and gluino production, and with the 2015 dataset the sensitivity to squark and gluino pair production could match, or even exceed, that of the entire Run~1 results. 
+The strategy of this early analysis is to use these Recursive Jigsaw variables to define signal regions for the following signal models:
+\begin{itemize}
+\item squark pair production, with each squark directly decaying to a jet and the lightest supersymmetric particle (LSP)
+\item gluino pair production, with each gluino directly decaying to two jets and the lightest supersymmetric particle (LSP)
+\end{itemize}
+Signal regions are defined to target regions of high sparticle mass production, and (orthogonal?) regions targeting compressed scenarios where the sparticle mass is comparable to the LSP mass.
+
+
+
+%---------------------------------------
+\subsection{Outline of note}
+%---------------------------------------
+The following studies are based on Monte Carlo (MC) samples produced for the Data Challenge 2014 (DC14). The technical implementations of the Run 2 analysis model are described in Appendix~\ref{app:technical}.
+Details of the signal and MC backgrounds used in this note, along with desired MC for the complete analysis based on the 2015 dataset are given in Section~\ref{sec:samples}.  
+The object selection and event selections are described in Section~\ref{sec:selection}.
+Plans for estimating the Standard Model (SM) backgrounds are given in Section~\ref{sec:background}.
+Finally, Section~\ref{sec:results} presents the expected results.
